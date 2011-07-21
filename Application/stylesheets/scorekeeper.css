@@ -1,0 +1,98 @@
+/* Put Application specific CSS here. */
+
+.container {
+	height:452px;
+	background:#515151 url("../images/bg.png") repeat-x;
+}
+
+.palm-header {
+	float:none;
+	position:static;
+	margin:0;
+	clear:both;
+}
+
+.scores {
+	clear:both;
+	display:table;
+	width:100%;
+	padding:0 4px;
+}
+
+.scores div {
+	width:50%;
+	height:111px;
+	text-align:center;
+	color:#FFF;
+	font-weight:bold;
+	font-size:72px;
+	line-height:72px;
+	padding:38px 0 0 0;
+}
+
+.scores .rightScore {
+	float:right;
+	background:url("../images/bg-score-green.png") top center no-repeat;
+}
+
+.scores .leftScore {
+	float:left;
+	background:url("../images/bg-score-red.png") top center no-repeat;
+}
+
+.cards {
+	clear:both;
+	display:table;
+	width:100%;
+}
+
+.cards div {
+	float:left;
+	width:50%;
+}
+
+.cards .card {
+	float:left;
+	margin-left:6px;
+	width:20px;
+	height:20px;
+	background:url("../images/bg-card-empty.png") center center no-repeat;
+}
+
+.cards .yellow {background:url("../images/bg-card-yellow.png") center center no-repeat;}
+.cards .red {background:url("../images/bg-card-red.png") center center no-repeat;}
+
+.timer {
+	clear:both;
+	text-align:center;
+	font-size:60px;
+	line-height:141px;
+	font-weight:bold;
+	height:141px;
+	width:100%;
+	padding:0 0 2px 0;
+	margin:4px 0;
+	background:url("../images/bg-timer-large.png") center center no-repeat;
+}
+
+.period {
+	text-align:center;
+	background:url("../images/bg-period.png") top center no-repeat;
+	font-size:24px;
+	height:38px;
+	padding-top:6px;
+	color:#FFF;
+}
+
+.settings {
+	position:absolute;
+	bottom:4px;
+	width:100%;
+	display:table;
+}
+
+.settings .scoreSettings, .settings .timeSettings {
+	width:50%;
+	float:left;
+	clear:none;
+}
